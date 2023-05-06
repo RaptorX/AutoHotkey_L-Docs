@@ -141,7 +141,7 @@ MyGui.AddUpDown("vMyUpDown Range1-10", 5)</pre>
 <pre><em>; Specify below the path to the GIF file to animate (local files are allowed too):</em>
 pic := "http://www.animatedgif.net/cartoons/A_5odie_e0.gif"
 MyGui := Gui()
-MyGui.Add("ActiveX", "w100 h150", "mshtml:&lt;img src='" pic "' /&gt;")
+MyGui.Add("ActiveX", "w100 h150", 'mshtml:<img src="' pic '" />')
 MyGui.Show</pre>
 <p>A <a href="../misc/ImageHandles.htm">bitmap or icon handle</a> can be used instead of a filename. For example, <code>"HBITMAP:" handle</code>.</p>
 
